@@ -1,13 +1,13 @@
 # Instituto Tecnologico de Costa Rica
 # Por Fabricio Rojas y Catalina Madrigal
-# Última modificación: 18 de febrero de 2022, 16:33
+# Última modificación: 18 de febrero de 2022, 17:05
 
 # Definicion de funcion string_work
 # entrada esperada --> variable tipo str
 # salida --> variable tipo str
-# error si entrada no es del tipo esperado --> AssertionError: 187
+# error si entrada no es del tipo esperado --> 187
 # error si entrada presenta un caracter no perteneciente
-# al alfabeto --> AssertionError: 923
+# al alfabeto --> 923
 # Note que el llamado de esta función requiere
 # de la libreria string
 

@@ -12,13 +12,17 @@
 # de la libreria string
 
 def string_work(texto):
-    assert type(texto) == str, 187  # Se verifica que el input es tipo str
-    assert texto.isalpha(), 923  # Se verifica que el input tiene solo
-    # caracteres pertenecientes al abecedario
-    textoNuevo = texto.swapcase()  # Realiza el cambio de MÁY a min y viceversa
-    return textoNuevo
+    if type(texto) == str:  # Se verifica que el input es tipo str
+        if texto.isalpha():  # Se verifica que el input tiene solo
+            # caracteres pertenecientes al abecedario
+            textoNuevo = texto.swapcase()
+            return textoNuevo  # Realiza el cambio de MÁY a min y viceversa
+        else:
+            return 923  # Sino, retorna el error correspondiente
+    else:
+        return 187  # Sino, retorna el error correspondiente
 
-
+    
 def num_to_str(x):  # La función recibe un número entre 0 y 99
     assert type(x) == int, "13"  # La función valida que el tipo de variable
     # sea un número. Si no lo es, devuelve el código de error "13".

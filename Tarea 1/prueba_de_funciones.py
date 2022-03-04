@@ -1,3 +1,7 @@
+# ERR4x2 -5
+# ERR5x2 -6 Los test de caso positivo no usan asserts para verificar el
+# resultado.
+# ERR10 -10
 import string
 from test_funciones import *
 for i in string.ascii_letters:  # string.ascii_letters es una constante

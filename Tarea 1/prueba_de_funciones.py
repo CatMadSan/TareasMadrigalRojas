@@ -21,3 +21,4 @@ assert num_to_str(100) == 46  # Comprueba el código de error
 # Para entrada mayor que 99,
 assert num_to_str(4.4) == 72  # Comprueba el código de error
 # Para tipo de entrada incorrecta (decimal).
+asdñlfjañsdlfjañlsdkjfñalskdjfñalksdjfñlakjsdf
